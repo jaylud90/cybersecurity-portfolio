@@ -4,6 +4,9 @@
 
 The application reflects user input directly into the HTML response without proper encoding. This allows an attacker to inject malicious scripts that execute immediately in the victim’s browser.
 
+## Impact Summary
+This vulnerability allows an attacker to execute arbitrary JavaScript in a victim’s browser via a crafted link. This could lead to session hijacking, phishing attacks, or unauthorized actions if the victim interacts with the malicious link.
+
 ## Proof of Concept
 
 Payload:
