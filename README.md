@@ -53,3 +53,7 @@ Bypassed filtering mechanisms using allowed tags and event handlers.
 ## Goal
 
 To obtain an entry-level cybersecurity role and continue developing practical offensive and defensive security skills.
+
+## Contact
+Open to entry-level cybersecurity opportunities.  
+GitHub: https://github.com/jaylud90
