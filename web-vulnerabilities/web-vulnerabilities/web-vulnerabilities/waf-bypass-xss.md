@@ -4,6 +4,9 @@
 
 The application attempts to prevent cross-site scripting (XSS) by filtering HTML tags and attributes. However, the filter is incomplete and allows certain tags and event handlers. By identifying allowed elements, it is possible to bypass the filter and execute JavaScript.
 
+## Impact Summary
+This vulnerability allows an attacker to bypass input filtering mechanisms and execute arbitrary JavaScript in a victim’s browser. This demonstrates that the application’s defensive controls are ineffective, increasing the risk of exploitation through XSS attacks.
+
 ## Proof of Concept
 
 Initial testing revealed:
