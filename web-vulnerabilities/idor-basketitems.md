@@ -4,6 +4,9 @@
 
 The application allows users to access basket item data by modifying the ID parameter in the request. The server does not verify whether the requested resource belongs to the authenticated user, resulting in unauthorized access to other users’ data.
 
+## Impact Summary
+This vulnerability allows unauthorized access to other users’ data by manipulating object identifiers, potentially exposing sensitive information.
+
 ## Proof of Concept
 
 Original request:
