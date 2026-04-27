@@ -4,6 +4,9 @@
 
 The application stores user-supplied input and later includes it in the HTML response without proper encoding. This allows an attacker to inject malicious scripts that execute when the stored content is viewed by users.
 
+## Impact Summary
+This vulnerability allows an attacker to execute arbitrary JavaScript in the browser of any user who views the affected content. Because the payload is stored on the server, it can impact multiple users and persist over time, increasing the severity of the attack.
+
 ## Proof of Concept
 
 Payload:
