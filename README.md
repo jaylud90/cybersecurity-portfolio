@@ -1,5 +1,16 @@
 # Cybersecurity Portfolio – Jay Ludington
 
+## Summary
+
+Hands-on web application security testing portfolio with demonstrated vulnerabilities and exploit chains.
+
+**Highlights**
+
+* 4+ vulnerabilities documented (IDOR, Stored XSS, Reflected XSS, WAF Bypass)
+* Experience with Burp Suite, DevTools, and Kali Linux
+* Practical exploitation and remediation guidance
+
+
 ## Overview
 
 This portfolio demonstrates hands-on experience in web application security testing. It includes real-world vulnerability discovery, exploitation, and documentation using tools such as Burp Suite and browser developer tools.
