@@ -22,18 +22,22 @@ This portfolio demonstrates hands-on experience in web application security test
 ### 1. IDOR – BasketItems API
 
 Unauthorized access to user data by modifying object identifiers.
+[View write-up](web-vulnerabilities/idor-basketitems.md)
 
 ### 2. Stored XSS
 
 Persistent script execution affecting all users viewing stored content.
+[View write-up](web-vulnerabilities/stored-xss.md)
 
 ### 3. Reflected XSS
 
 Script injection via request parameters executed in server response.
+[View write-up](web-vulnerabilities/reflected-xss.md)
 
 ### 4. XSS Filter Bypass (WAF)
 
 Bypassed filtering mechanisms using allowed tags and event handlers.
+[View write-up](web-vulnerabilities/waf-bypass-xss.md)
 
 ## Goal
 
